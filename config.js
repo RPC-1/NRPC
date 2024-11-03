@@ -38,16 +38,14 @@ module.exports = {
         "endTimestamp": "",
 
         // Button configuration
-        "buttons": [
-            {
-                "label": "Watch Stream",
-                "url": "https://www.twitch.tv/discord"
-            },
-            {
-                "label": "Join Discord",
-                "url": "https://discord.gg/SMEZNVMc"
-            }
-        ]
+        "button1": {
+            "label": "Watch Stream",
+            "url": "https://www.twitch.tv/discord"
+        },
+        "button2": {
+            "label": "Join Discord",
+            "url": "https://discord.gg/SMEZNVMc"
+        }
     },
     "spotify": {
         "name": "", // for example listening to {name} instead of listening to spotify
