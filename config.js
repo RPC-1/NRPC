@@ -2,9 +2,9 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "", 
+    "mode": "twitch", 
     // dnd/online/idle
-    "status": "",
+    "status": "dnd",
 
     "game": {
         "applicationID": "",
@@ -18,21 +18,21 @@ module.exports = {
 
         "smallImageKey": "", // Small Image
         "smallImageText": "",
-        
+
         // Date.now() Epoch timestamps
         "startTimestamp": "", // time elapsed since this timestamp (increase ++)
         "endTimestamp": "" // time left since this timestamp (decrease --)
     },
     "twitch": {
-        "applicationID": "",
-        "url": "", // twitch channel link
+        "applicationID": "1158240348854829076",
+        "url": "https://www.twitch.tv/discord", // twitch channel link
 
-        "details": "", // title
-        "state": "", // first row below title (playing ...)
+        "details": "TEST", // title
+        "state": "TEST TWITCH", // first row below title (playing ...)
 
         "largeImageKey": "", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
-        "largeImageText": "", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
-        
+        "largeImageText": "IMG TEST", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
+
         "smallImageKey": "",
         "smallImageText": "",
 
@@ -46,10 +46,10 @@ module.exports = {
 
         "largeImageKey": "", // https://github.com/mewzax/Discord-RPC-Selfbot/wiki/Spotify-API
         "largeImageText": "", // will also be second row below title
-        
+
         "smallImageKey": "",
         "smallImageText": "",
-        
+
         "startTimestamp": "",
         "endTimestamp": "",
     }
