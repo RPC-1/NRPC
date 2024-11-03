@@ -28,7 +28,7 @@ module.exports = {
         "details": "TEST", // title
         "state": "TEST TWITCH", // first row below title (playing ...)
 
-        "largeImageKey": "img", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
+        "largeImageKey": "", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
         "largeImageText": "IMG TEST", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
 
         "smallImageKey": "",
